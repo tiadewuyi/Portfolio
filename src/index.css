@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base { 
+    @font-face {
+      font-family: 'SF';
+      font-weight: 400;
+      src: url(./fonts/Regular.otf) format("otf");
+    }
+
+    @font-face {
+        font-family: 'SF';
+        font-weight: 500;
+        src: url(./fonts/Medium.otf) format("otf");
+    }
+
+    @font-face {
+        font-family: 'SF';
+        font-weight: 600;
+        src: url(./fonts/Semibold.otf) format("otf");
+      }
+  
+    @font-face {
+        font-family: 'SF';
+        font-weight: 700;
+        src: url(./fonts/Bold.otf) format("otf");
+      }
+
+}
