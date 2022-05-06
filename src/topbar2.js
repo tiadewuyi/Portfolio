@@ -56,9 +56,9 @@ class TopBar extends Component{
                         </div>
                     </div>
                     { this.state.menuIcon === MenuOpen ? <div className='Menu-mobile md:hidden flex flex-col gap-8 items-center bg-mygrey w-screen pt-12 pb-24 font-light text-lg text-myblack'>
-                        {this.state.page === 'home' ? <p className='bg-myblue rounded-full px-5'>.home</p> : <Link to='/'>.home</Link>}
-                        {this.state.page === 'work' ? <p className='bg-myblue rounded-full px-5' to='/work'>.work</p> :  <Link to='/work'>.work</Link>}
-                        {this.state.page === 'contact' ? <p className='bg-myblue rounded-full px-5'>.contact</p> :  <Link to='/contact'>.contact</Link>}
+                        {this.state.page === 'home' ? <p className='bg-myblue rounded-full px-5 my-3'>.home</p> : <Link to='/' className='my-3'>.home</Link>}
+                        {this.state.page === 'work' ? <p className='bg-myblue rounded-full px-5 my-3' to='/work'>.work</p> :  <Link to='/work' className='my-3'>.work</Link>}
+                        {this.state.page === 'contact' ? <p className='bg-myblue rounded-full px-5 my-3'>.contact</p> :  <Link to='/contact' className='my-3'>.contact</Link>}
                     </div> : <div/>}
                     
                 </div>

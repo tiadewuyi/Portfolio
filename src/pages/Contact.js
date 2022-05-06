@@ -1,13 +1,13 @@
 import React from 'react'
 import TopBar from '../topbar2'
 import Footer from '../footer'
-import Memoji from '../svgs/memoji/hello-emoji.svg' 
+import Memoji from '../svgs/memoji/hello-emoji.gif' 
 import Gmail from '../svgs/socials/gmail.svg'
 
 function Contact(props) {
   return(
     <div>
-      <div className='Hero mt-40 flex flex-col items-center'>
+      <div className='Hero mt-40 flex flex-col items-center mx-2'>
         <img className='h-24' src={Memoji} alt='hero memoji'/>
         <header className='flex mt-5'>
             <p className='text-3xl text-myblack font-bold text-center'>Say hello!</p>

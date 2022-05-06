@@ -5,11 +5,11 @@ import TopBar from '../topbar2'
 import Case from '../case'
 import ValueProp from '../valueprop'
 import Footer from '../footer'
-import Memoji from '../svgs/memoji/home-emoji.svg' 
-import Emoji from '../svgs/emojis/smiling.svg'
-import SnowyMock from '../svgs/snowy-mock.svg'
-import FitX from '../svgs/fit-mock.svg'
-import Taskie from '../svgs/taskie-mock.svg'
+import Memoji from '../svgs/memoji/home-emoji.gif' 
+import Emoji from '../svgs/emojis/smiling.gif'
+import SnowyMock from '../svgs/snowy-mock.gif'
+import FitX from '../svgs/fit-mock.gif'
+import Taskie from '../svgs/taskie-mock.gif'
 import {gsap, ScrollTrigger, ScrollToPlugin} from 'gsap/all'
 
 function Home(props) {
@@ -25,11 +25,11 @@ function Home(props) {
   return(
     <div>
       <div ref={ref}>
-      <div className='Hero mt-40 flex flex-col items-center mx-12' >
+      <div className='Hero mt-40 flex flex-col items-center mx-10' >
       <img className='h-24' src={Memoji} alt='hero memoji'/>
-      <header className='flex mt-5'>
+      <header className='flex items-center gap-1 mt-5'>
         <p className='text-3xl text-myblack font-bold text-center'><span className='font-medium text-myblue'>hello,</span> I'm Tofunmi</p>
-        <img className='hidden smallest:block' src={Emoji} alt='smiling emoji'/>
+        <img className='hidden h-8 smallest:block' src={Emoji} alt='smiling emoji'/>
       </header>
       <p className='text-mysecondary max-w-2xl text-left lg:text-center mt-4 leading-8 font-light'>A <span className='font-medium text-black'>Product designer and Front-end developer</span> from Nigeria.
       <br/>I enjoy creating beautiful and functional user experiences. I am passionate about crafting solutions to complex experiences and finding creative ways to solve to business problems, and also solving problems in general.</p>

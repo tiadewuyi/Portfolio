@@ -4,10 +4,10 @@ import Button from '../button'
 import TopBar from '../topbar2'
 import Case from '../case'
 import Footer from '../footer'
-import Memoji from '../svgs/memoji/work-emoji.svg' 
-import SnowyMock from '../svgs/snowy-mock.svg'
-import FitX from '../svgs/fit-mock.svg'
-import Taskie from '../svgs/taskie-mock.svg'
+import Memoji from '../svgs/memoji/work-emoji.gif' 
+import SnowyMock from '../svgs/snowy-mock.gif'
+import FitX from '../svgs/fit-mock.gif'
+import Taskie from '../svgs/taskie-mock.gif'
 import {gsap, ScrollTrigger} from 'gsap/all'
 
 function Work(props) {
@@ -22,13 +22,13 @@ function Work(props) {
   return(
     <div>
     <div ref={ref}>
-      <div className='Hero mt-40 flex flex-col items-center'>
+      <div className='Hero mt-40 flex flex-col items-center mx-10'>
       <img className='h-24' src={Memoji} alt='hero memoji'/>
-      <header className='flex flex-col gap-4 mt-5 mx-6'>
-        <p className='text-3xl text-myblack font-bold text-center'><span className='font-medium text-myblue'>Meet,</span> Tofunmi Adewuyi</p>
-        <p className='text-xl text-mysecondary font-semibold'>Product + UX designer & Web designer from Nigeria</p>
+      <header className='flex flex-col gap-4 mt-5'>
+        <p className='text-3xl text-myblack font-bold text-center'><span className='font-medium text-myblue'></span> Tofunmi Adewuyi</p>
+        <p className='text-xl text-mysecondary text-center font-medium '>Product + UX designer & Web designer from Nigeria</p>
       </header>
-      <p className='text-mysecondary max-w-2xl text-left mt-4 leading-8 font-light mx-6'>Currently leading design efforts at <span className='font-bold underline'>Bodadmin</span> from Nigeria.
+      <p className='text-mysecondary max-w-2xl text-left mt-4 leading-8 font-light'>Currently contributing to the design efforts at <a href='https://www.bodadmin.com'><span className='font-bold underline'>Bodadmin</span></a> from Nigeria.
       Responsiblities include user interace design, user experience design, visual design, user research, prototyping. I have experience taking ownership of a product’s design, going all the way.</p>
       <div className='Button mt-8'>
       <Button text='Connect with me'/>
